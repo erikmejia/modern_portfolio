@@ -92,6 +92,8 @@
             background: url(../img/portrait.jpg);
             border-radius: 50%;
             border: solid 3px $secondary-color;
+            position: relative;
+            bottom: 20px;
         }
     }
 
@@ -112,7 +114,8 @@
     .nav-link {
         display: inline-block;
         position: relative;
-        font-size: 30px;
+        bottom: 25px;
+        font-size: 35px;
         text-transform: uppercase;
         padding: 0.5rem 0;
         font-weight:250;
